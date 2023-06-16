@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { useSession } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
 
-import Profile from '@components/rofile';
+import Profile from '@components/Profile';
 
 const MyProfile = () => {
   const router = useRouter();
